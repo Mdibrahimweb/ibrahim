@@ -213,6 +213,10 @@
   .resume-container{
       display: flex;
       gap: 24px;
+      
+  }
+  .experience-title, .experience-description{
+    opacity: 15%;
   }
   .experience-sub-title{
       font-size: 20px;
