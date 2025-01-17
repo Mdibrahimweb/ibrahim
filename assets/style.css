@@ -61,6 +61,11 @@
       align-items: center;
       justify-content: space-around;
       margin: 0px;
+
+  }
+  nav{
+    position: sticky;
+    top:0px;
   }
   
   .nav-title{
@@ -82,6 +87,29 @@
   nav li a {
       text-decoration: none;
       font-size: 20px;
+  }
+  @media screen and (max-width: 576px){
+    .banner-title{
+        font-size: 50px;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav ul{
+        display: inline;
+        margin: 0px;
+    }
+    nav ul li{
+        margin-right: 10px;
+    }
+    .inline {
+        display: -webkit-box;
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .navbtn{
+        padding: 5px 10px;
+    }
   }
   
   /* banner styles */
@@ -105,6 +133,7 @@
       font-size: 70px;
       margin: 10px 0px 5px 0px;
       padding: 0px;
+      margin: 0px;
   }
   .banner-profile-pic{
       width: 580px;
@@ -126,9 +155,6 @@
         flex-direction: column;
     }
 
-    nav > ul{
-        gap: 20px;
-    }
 
     .t-button{
         margin-bottom: 20px;
