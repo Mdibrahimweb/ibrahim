@@ -93,11 +93,10 @@
       font-size: 20px;
   }
   @media screen and (max-width: 576px){
-    .banner-title{
-        font-size: 62px;
-        font-weight: 600;
-        padding: 0px;
-        margin: 0px;
+    .md{
+        font-size: 70px;
+        font-weight: 800;
+        white-space: nowrap;
     }
     nav ul{
         display: inline;
